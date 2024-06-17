@@ -71,13 +71,13 @@
     <div class="container">
         <section id="about">
             <h2>Sobre Mí</h2>
-            <p>¡Hola! Soy [Tu Nombre], un apasionado por [tu profesión/intereses]. En este blog, compartiré mis pensamientos, proyectos y todo lo que me apasiona. ¡Gracias por visitar!</p>
+            <p>¡Hola! soy Daniel un apasionado por la verdad del nacional socialismo . En este blog, compartiré mis pensamiento y la realidad sobre el mundo . ¡Gracias por visitar!</p>
         </section>
         <section id="blog">
             <h2>Blog</h2>
             <div class="post">
                 <h3>Título del Post</h3>
-                <p>Contenido del post. Aquí puedes escribir sobre cualquier tema que te interese.</p>
+                <p>nacional socialista.queremos abrirtelos ojos y mostrarte la verdad</p>
             </div>
             <!-- Puedes duplicar la estructura anterior para más posts -->
         </section>
@@ -85,14 +85,14 @@
             <h2>Proyectos</h2>
             <div class="project">
                 <h3>Nombre del Proyecto</h3>
-                <p>Descripción breve del proyecto. Puedes incluir enlaces, imágenes, y cualquier detalle relevante.</p>
+                <p>este proyecto.esta página web ña hago para nuestros queridos miembros y realizar propaganda mas efectiva y sin peligro que nos la eliminen</p>
             </div>
             <!-- Puedes duplicar la estructura anterior para más proyectos -->
         </section>
         <section id="contact">
             <h2>Contacto</h2>
-            <form action="mailto:tu-email@example.com" method="post" enctype="text/plain">
-                <label for="name">Nombre:</label>
+            <form action="hghcjgdfhhfdhf@gmail.com" method="post" enctype="text/plain">
+                <label for="Daniel">Nombre:</label>
                 <input type="text" id="name" name="name"><br>
                 <label for="email">Email:</label>
                 <input type="email" id="email" name="email"><br>
@@ -103,7 +103,9 @@
         </section>
     </div>
     <footer>
-        <p>© 2024 Nacional-Socialismo Todos los derechos reservados.</p>
+        <p>© 2024 Nacional-Socialismo.
+    
+        Todos los derechos reservados.</p>
     </footer>
 </body>
 </html>
