@@ -1,111 +1,144 @@
+my-website/
+├── index.html
+├── styles.css
+└── scripts.js
 <!DOCTYPE html>
-<html lang="es">
+<html lang="N.S.D.A.P">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Blog Personal</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-        header {
-            background: #333;
-            color: #fff;
-            padding: 1rem 0;
-            text-align: center;
-        }
-        nav {
-            display: flex;
-            justify-content: center;
-            background: #444;
-        }
-        nav a {
-            color: #fff;
-            padding: 1rem;
-            text-decoration: none;
-            text-transform: uppercase;
-        }
-        nav a:hover {
-            background: #555;
-        }
-        .container {
-            max-width: 1200px;
-            margin: auto;
-            overflow: hidden;
-            padding: 0 2rem;
-        }
-        #about, #blog, #projects, #contact {
-            padding: 2rem 0;
-        }
-        .post, .project {
-            background: #fff;
-            margin: 1rem 0;
-            padding: 1rem;
-            border-radius: 5px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        footer {
-            background: #333;
-            color: #fff;
-            text-align: center;
-            padding: 1rem 0;
-            margin-top: 1rem;
-        }
-    </style>
+    <meta name="nacional socialista" content="width=device-width, initial-scale=1.0">
+    <title>bienvenido compatriota</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Mi Blog Personal</h1>
-        <p>Bienvenidos a mi espacio personal en la web</p>
+        <nav>
+            <ul>
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#about">Sobre Nosotros</a>nosotros somos una comunidad que sigue fiel mente las ideales de adolf Hitler</li>
+                <li><a href="#gallery">Galería</a>por ahora no tenemos información aqui</li>
+                <li><a href="#contact">Contacto</a>te puedes comunicar con nosotros con este correo hghcjgdfhhfdhf@gmail.com</li>
+            </ul>
+        </nav>
     </header>
-    <nav>
-        <a href="#about">Sobre Mí</a>
-        <a href="#blog">Blog</a>
-        <a href="#projects">Proyectos</a>
-        <a href="#contact">Contacto</a>
-    </nav>
-    <div class="container">
-        <section id="about">
-            <h2>Sobre Mí</h2>
-            <p>¡Hola! soy Daniel un apasionado por la verdad del nacional socialismo . En este blog, compartiré mis pensamiento y la realidad sobre el mundo . ¡Gracias por visitar!</p>
-        </section>
-        <section id="blog">
-            <h2>Blog</h2>
-            <div class="post">
-                <h3>Título del Post</h3>
-                <p>nacional socialista.queremos abrirtelos ojos y mostrarte la verdad</p>
-            </div>
-            <!-- Puedes duplicar la estructura anterior para más posts -->
-        </section>
-        <section id="projects">
-            <h2>Proyectos</h2>
-            <div class="project">
-                <h3>Nombre del Proyecto</h3>
-                <p>este proyecto.esta página web ña hago para nuestros queridos miembros y realizar propaganda mas efectiva y sin peligro que nos la eliminen</p>
-            </div>
-            <!-- Puedes duplicar la estructura anterior para más proyectos -->
-        </section>
-        <section id="contact">
-            <h2>Contacto</h2>
-            <form action="hghcjgdfhhfdhf@gmail.com" method="post" enctype="text/plain">
-                <label for="Daniel">Nombre:</label>
-                <input type="text" id="name" name="name"><br>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email"><br>
-                <label for="message">Mensaje:</label><br>
-                <textarea id="message" name="message" rows="4" cols="50"></textarea><br>
-                <input type="submit" value="Enviar">
-            </form>
-        </section>
-    </div>
-    <footer>
-        <p>© 2024 Nacional-Socialismo.
+    <section id="hogar" class="section">
+        <h1>compatriota bienvenido disfrutá la información real que te ofrecemos</h1>
+        <p>Esta es una página web desarrollada con HTML, CSS y JavaScript.</p>
+    </section>
+    <section id="about" class="section">
+        <h2>Sobre Nosotros</h2>nosotros somos una comunidad fielmente a adolf Hitler, queremos liberar el mundo de las mentiras que los judíos han inventado 
+        <p>Somos un partido que revive el partido de Adolf Hitler fielmente.</p>
+    </section>
+    <section id="gallery" class="section">
+        <h2>Galería</h2>
+        <div class="gallery">
+            <img src="https://nacional socialismo .com/150" alt="Imagen 1">
+            body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.section {
+    padding: 20px;
+    text-align: center;
+}
+
+.section:nth-child(even) {
+    background-color: #ddd;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.gallery img {
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label {
+    margin: 5px 0;
+}
+
+form input, form textarea {
+    margin: 5px 0;
+    padding: 10px;
+    width: 80%;
+    max-width: 500px;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+document.addEventListener('DOMContentLoaded', () => {
+    const form = document.getElementById('contactForm');
     
-        Todos los derechos reservados.</p>
-    </footer>
-</body>
-</html>
+    form.addEventListener('submit', (e) => {
+        e.preventDefault();
+        
+        const name = document.getElementById('name').value;
+        const email = document.getElementById('email').value;
+        const message = document.getElementById('message').value;
+        
+        console.log('Nombre:', name);
+        console.log('Email:', email);
+        console.log('Mensaje:', message);
+        
+        alert('Formulario enviado. ¡Gracias por contactarnos!');
+        
+        form.reset();
+    });
+});
